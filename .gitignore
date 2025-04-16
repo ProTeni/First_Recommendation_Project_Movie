@@ -7,7 +7,7 @@
 !article_draft.md
 !requirements.txt
 !run.py
-!.env
+!.env.example
 
 # Unignore folders AND their contents
 !Notebooks/
