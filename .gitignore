@@ -1,19 +1,32 @@
-# Ignore all folders
+# Ignore everything by default
 *
 
-# But track these specific folders and files
-!/
+# Except these files and directories
 !.gitignore
 !README.md
 !article_draft.md
-!Notebooks/
-!src/
-!Data/
-!Docker/
 !requirements.txt
-!App/
-!.env
 !run.py
-!Config/
-!Recommendation_engine/
+!.env
 
+# Unignore folders AND their contents
+!Notebooks/
+!Notebooks/**
+
+!src/
+!src/**
+
+!Data/
+!Data/**
+
+!Docker/
+!Docker/**
+
+!App/
+!App/**
+
+!Config/
+!Config/**
+
+!Recommendation_engine/
+!Recommendation_engine/**
