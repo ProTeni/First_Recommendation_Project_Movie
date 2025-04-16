@@ -1,0 +1,19 @@
+# Ignore all folders
+*
+
+# But track these specific folders and files
+!/
+!.gitignore
+!README.md
+!article_draft.md
+!Notebooks/
+!src/
+!Data/
+!Docker/
+!requirements.txt
+!App/
+!.env
+!run.py
+!Config/
+!Recommendation_engine/
+
